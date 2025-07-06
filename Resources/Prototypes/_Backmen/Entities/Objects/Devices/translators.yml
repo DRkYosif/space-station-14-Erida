@@ -58,6 +58,7 @@
   name: foreigner's translator
   description: A special-issue translator that helps foreigner's speak and understand this station's primary language.
 
+
 - type: entity
   id: CanilunztTranslator
   parent: [ TranslatorPoweredBase ]
@@ -291,32 +292,32 @@
   id: CarshnilTranslator
   parent: [ TranslatorPoweredBase ]
   name: Carshnil translator
-  description: Translates speech between Carshnil and Galactic Common, allowing your local yeepers to communicate with the locals and vice versa!
+  description: Translates speech between Carshnil and Galactic Common
   components:
   - type: HandheldTranslator
     spoken:
     - TauCetiBasic
-    - Demonic
+    - Carshnil
     understood:
     - TauCetiBasic
-    - Demonic
+    - Carshnil
     requires:
     - TauCetiBasic
-    - Demonic
+    - Carshnil
 
 - type: entity
-  id: Eve-pishtuTranslator
+  id: EvePishtuTranslator
   parent: [ TranslatorPoweredBase ]
   name: Eve-pishtu translator
-  description: Translates speech between Eve-pishtu and Galactic Common, allowing your local yeepers to communicate with the locals and vice versa!
+  description: Translates speech between Eve-pishtu and Galactic Common
   components:
   - type: HandheldTranslator
     spoken:
     - TauCetiBasic
-    - Shark
+    - EvePishtu
     understood:
     - TauCetiBasic
-    - Shark
+    - EvePishtu
     requires:
     - TauCetiBasic
-    - Shark
+    - EvePishtu

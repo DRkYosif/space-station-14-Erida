@@ -20,7 +20,6 @@
   - Muted
   - Narcolepsy
   - Pacified
-  - PainNumbness
   - Paracusia
   - PermanentBlindness
   - Snoring
@@ -49,6 +48,7 @@
   - OwOAccent
   - ParrotAccent
   - PirateAccent
+  - RoarAccent
   # - ReplacementAccent
   # Not supported at the moment because AddAccentClothingComponent will make it permanent when cloned.
   # TODO: AddAccentClothingComponent should use an inventory relay event.
